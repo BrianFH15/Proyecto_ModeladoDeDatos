@@ -1,0 +1,105 @@
+[
+  {
+    "metadata_extraccion": {
+      "id_documento": "94ddbebc-59bb-4a94-bedc-3428dfba8788",
+      "proveedor": "Hostech",
+      "metodo_extraccion": "transcripcion_manual_de_capturas",
+      "fuentes": [
+        "Diagrama_Avance1/Interfaz de cotizacion.jpeg",
+        "Diagrama_Avance1/Detalles habitacion .jpeg",
+        "Diagrama_Avance1/Politicas.jpeg"
+      ],
+      "notas_calidad": "Transcrito de capturas proporcionadas; no es una consulta en vivo. Los detalles de habitaciones y politicas solo se incluyen cuando son visibles."
+    },
+    "parametros_busqueda": {
+      "destino": "Riviera Maya - MX",
+      "nacionalidad": null,
+      "fechas": {
+        "check_in": "2026-09-14",
+        "check_out": "2026-09-16",
+        "noches": 2
+      },
+      "ocupacion": {
+        "habitaciones": 1,
+        "adultos": 2,
+        "menores": 0
+      },
+      "total_hoteles_disponibles": 1246
+    },
+    "resultados": [
+      {
+        "hotel_nombre": "OYO Hotel Palma Real",
+        "categoria": "SCC",
+        "ubicacion": "Riviera Maya",
+        "tarifa_promedio_noche": 439.00,
+        "costo_total_estancia": 878.00,
+        "moneda": "MXN",
+        "opciones_habitacion": [
+          {
+            "tipo_habitacion": "Doble Standard",
+            "plan_alimento": "Sólo Habitación",
+            "costo_total": 878.00,
+            "moneda": "MXN",
+            "estado_disponibilidad": "confirmado",
+            "politicas": {
+              "fecha_limite_pago": "2026-09-03",
+              "cargos_cancelacion": "Tarifa no reembolsable.",
+              "cargos_no_show": "En caso de no presentarse al hotel aplicará la siguiente penalidad: $878.00 MXN"
+            }
+          },
+          {
+            "tipo_habitacion": "Doble Superior Dos Camas Dobles",
+            "plan_alimento": "Sólo Habitación",
+            "costo_total": 1098.00,
+            "moneda": "MXN",
+            "estado_disponibilidad": "confirmado"
+          },
+          {
+            "tipo_habitacion": "Habitación Superior",
+            "plan_alimento": "Sólo Habitación",
+            "costo_total": 1111.00,
+            "moneda": "MXN",
+            "estado_disponibilidad": "confirmado"
+          },
+          {
+            "tipo_habitacion": "Habitación Standard",
+            "plan_alimento": "Sólo Habitación",
+            "costo_total": 1111.00,
+            "moneda": "MXN",
+            "estado_disponibilidad": "confirmado"
+          },
+          {
+            "tipo_habitacion": "Doble Standard",
+            "plan_alimento": "Sólo Habitación",
+            "costo_total": 1159.00,
+            "moneda": "MXN",
+            "estado_disponibilidad": "confirmado"
+          },
+          {
+            "tipo_habitacion": "Habitación Familiar Tres Camas",
+            "plan_alimento": "Sólo Habitación",
+            "costo_total": 1208.00,
+            "moneda": "MXN",
+            "estado_disponibilidad": "confirmado"
+          },
+          {
+            "tipo_habitacion": "Habitación Superior",
+            "plan_alimento": "Sólo Habitación",
+            "costo_total": 1272.00,
+            "moneda": "MXN",
+            "estado_disponibilidad": "confirmado"
+          }
+        ]
+      },
+      {
+        "hotel_nombre": "Live Coco Suites - Hotel Boutique & Rooftop",
+        "ubicacion": "Playa del Carmen",
+        "tarifa_promedio_noche": 512.50,
+        "costo_total_estancia": 1025.00,
+        "moneda": "MXN",
+        "opciones_habitacion": [],
+        "notas_calidad": "Solo se ven nombre, ubicacion y tarifas en la captura; no se transcribieron habitaciones, categoria ni politicas."
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[project]
+name = "hostech-quotes-api"
+version = "0.1.0"
+description = "API REST para cotizaciones simuladas de Hostech"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "pydantic-settings>=2.6,<3",
+    "pymongo>=4.10,<5",
+    "python-dotenv>=1,<2",
+    "uvicorn[standard]>=0.32,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "httpx>=0.27,<1",
+    "mongomock>=4.3,<5",
+    "pytest>=8.3,<9",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
